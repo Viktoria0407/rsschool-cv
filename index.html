@@ -7,64 +7,70 @@
     <title>My CV</title>
     <meta name="title" content="My portfolio">
     <meta name="description" content="Here you can find information about me">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="container">
-                <ul class="menu">
-                    <li class="menu__item"><a href="#" class="menu_link">Main</a></li>
-                    <li class="menu__item"><a href="#require" class="menu_link">My work skills</a></li>
-                    <li class="menu__item"><a href="#require" class="menu_link">Another skills</a></li>
-                    <li class="menu__item"><a href="#" class="menu_link">Contacts</a></li>
-                </ul>
-            </div>
+            <ul class="menu">
+                <li class="menu__item"><a href="#info" class="menu_link">Main</a></li>
+                <li><a href="#skills" class="menu_link">My work skills</a></li>
+                <li><a href="#another" class="menu_link">Another skills</a></li>
+                <li class="menu__item"><a href="#contacts" class="menu_link">Contacts</a></li>
+            </ul>
         </nav>
+        <section class="greeting">
+            <h1>Welcome to my page!</h1>
+            <div class="greeting__subtitle">
+                Here you can find information about me
+            </div>
+        </section>
     </header>
     <main>
         <div class="container">
-            <section class="greeting">
-                <h1>Welcome to my page!</h1>
-                <div class="greeting__subtitle">
-                    Here you can find information about me
-                </div>
-            </section>
-                <div class="info">
-                    <img src="#" alt="My photo">
+                <div class="info" id="info" >
+                    <img src="img/main.png" alt="My photo">
                     <div class="info__descr">
-                        My name is Victoria Lychkovskaya. <br>
-                        At the moment I live in the city of Minsk <br>
-                        I graduated from the Belarusian State Medical University, during my studies I received multidisciplinary knowledge in various directions. <br>
-                        At the moment, I can't see myself in the future as a medical worker, so I am developing in the field of information technology. 
+                        <div class="title">
+                            About me
+                        </div>
+                         <div class="info__subtitle">
+                            My name is Victoria Lychkovskaya
+                         </div>
+
+                         <span class="info__item"></span>
+                        <ul class="info__text">
+                            <li>At the moment I live in the city of Minsk</li> 
+                            <li>I graduated from the Belarusian State Medical University, during my studies I received multidisciplinary knowledge in various directions.</li> 
+                            <li>At the moment, I can't see myself in the future as a medical worker, so I am developing in the field of information technology.</li>
+                        </ul> 
                     </div>
                 </div>
             <section class="work">
 
-                <div class="work__title">
-                  <h2>My work skills</h2>
+                <div class="title" id="skills">
+                  My work skills
                 </div>
 
-                <ul class="work__skills">
-                    <li>HTML5 / CSS3, knowledge of the peculiarities of work</li>
-                    <li>Skills in working with: Avocode; Figma; Zeplin; Adobe Photoshop</li>
-                    <li>Working with Bootstrap</li>
-                    <li>Preprocessors (Less, Sass)</li>
-                    <li>Working with git, github</li>
-                    <li>Animate css</li>
-                    <li>Gulp</li>
-                    <li>JS (jQery)</li>
-                    <li>BEM methodology</li>
+                <ul class="work__skills" >
+                    <li> Basic knowledge HTML5 / CSS3 / Javascript</li>
+                    <!--Think about Ecmascript-->
+                    <li>Web design tools: Avocode, Figma, Zeplin, Adobe Photoshop</li>
+                    <li>Working with Bootstrap</li> <!-- add more libraries -->
+                    <li>Preprocessors: Less, Sass</li>
+                    <li>VCS: git</li>
+                    <li>Libraries: Animate css, JQuery</li>
+                    <li>Task-manager tool: Gulp</li>
+                    <li>Experience with BEM methodology</li>
                 </ul>
 
             </section>
 
-            <section class="another">
-                <div class="work__title">
-                    <h2>My another important skills</h2>
+            <section class="work">
+                <div class="title">
+                    My another important skills
                   </div>
-
-                  <ul class="work__skills">
+                  <ul class="work__skills" id="another" >
                     <li>Activity</li>
                     <li>Optimism</li>
                     <li>Sociability</li>
@@ -73,10 +79,19 @@
                     <li>Stress tolerance</li>
                     <li>Perseverance</li>
                 </ul>
-
             </section>
-
         </div>
     </main>
+
+    <footer>
+        <div class="contacts__text" id="contacts">
+            Contact with me:
+        </div>
+        <div class="contacts__item">
+            <a href="#"><img class="github" src="img/github.svg" alt="github"></a>
+            <a href="#"><img class="discord" src="img/discord.png" alt="telegram"></a>
+        </div>
+    </footer>
+
 </body>
 </html>
