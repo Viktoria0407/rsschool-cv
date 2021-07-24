@@ -108,7 +108,7 @@ h1 {
 }
 
 .work {
-    padding: 120px 0 120px 0;
+    padding: 120px 0 100px 0;
 }
 
 h2 .title {
@@ -116,9 +116,44 @@ h2 .title {
 }
 
 .work__skills {
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 25px;
     line-height: 40px;
+}
+
+.project  {
+    display: block;
+    margin-top: 70px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #FFA500;
+    max-width: 140px;
+}
+
+.project a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.project a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.contacts {
+    min-height: 400px;
+}
+
+.work__skills a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.work__skills a:hover {
+    color: #FFA500;
+    text-decoration: underline;
 }
 
 footer {
@@ -127,25 +162,19 @@ footer {
     background-color: #FFA500;
 }
 
-.contacts__text {
+.year {
     padding: 40px 40px;
     color: #FFFFFF;
     font-size: 20px;
 } 
 
-.contacts__item {
+.rsschool {
     padding: 38px 0;
 
 }
 
-.github {
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
-}
-
-.rsschool {
-    width: 55px;
+.rsschool__icon {
+    width: 70px;
     height: 30px;
 }
 
