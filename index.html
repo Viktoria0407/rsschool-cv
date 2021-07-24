@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <meta name="title" content="My portfolio">
+    <meta name="description" content="Here you can find information about me">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item"><a href="#info" class="menu_link">Main</a></li>
+                <li><a href="#skills" class="menu_link">My work skills</a></li>
+                <li><a href="#another" class="menu_link">Another skills</a></li>
+                <li class="menu__item"><a href="#contacts" class="menu_link">Contacts</a></li>
+            </ul>
+        </nav>
+        <section class="greeting">
+            <h1>Welcome to my page!</h1>
+            <div class="greeting__subtitle">
+                Here you can find information about me
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="container">
+                <div class="info" id="info" >
+                    <img src="img/main.png" alt="My photo">
+                    <div class="info__descr">
+                        <div class="title">
+                            About me
+                        </div>
+                         <div class="info__subtitle">
+                            My name is Victoria Lychkovskaya
+                         </div>
+
+                         <span class="info__item"></span>
+                        <ul class="info__text">
+                            <li>At the moment I live in the city of Minsk</li> 
+                            <li>I graduated from the Belarusian State Medical University, during my studies I received multidisciplinary knowledge in various directions.</li> 
+                            <li>At the moment, I can't see myself in the future as a medical worker, so I am developing in the field of information technology.</li>
+                        </ul> 
+                    </div>
+                </div>
+
+            <section class="work">
+
+                <h2 class="title" id="skills">
+                  My work skills
+                </h2>
+
+                <ul class="work__skills" >
+                    <li> Basic knowledge HTML5 / CSS3 / Javascript</li>
+                    <!--Think about Ecmascript-->
+                    <li>Web design tools: Avocode, Figma, Zeplin, Adobe Photoshop</li>
+                    <li>Working with Bootstrap</li> <!-- add more libraries -->
+                    <li>Preprocessors: Less, Sass</li>
+                    <li>VCS: git</li>
+                    <li>Libraries: Animate css, JQuery</li>
+                    <li>Task-manager tool: Gulp</li>
+                    <li>Experience with BEM methodology</li>
+                </ul>
+
+            </section>
+
+            <section class="work">
+                <h2 class="title">
+                    My another important skills
+                  </h2>
+                  <ul class="work__skills" id="another" >
+                    <li>Activity</li>
+                    <li>Optimism</li>
+                    <li>Sociability</li>
+                    <li>High efficiency</li>
+                    <li>Desire to learn</li>
+                    <li>Stress tolerance</li>
+                    <li>Perseverance</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contacts__text" id="contacts">
+            Contact with me:
+            <br>
+            2021
+        </div>
+        <div class="contacts__item">
+            <a href="https://github.com/Viktoria0407"><img class="github" src="img/github.svg" alt="github"></a>
+            <a href="https://rs.school/js/"><img class="rsschool" src="img/rs_school_js.svg" alt="rsschool"></a>
+        </div>
+    </footer>
+
+</body>
+</html>

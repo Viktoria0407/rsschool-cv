@@ -1,0 +1,151 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+  
+nav {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background: #212121;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 200px;
+	margin: 0;
+	list-style-type: none;
+}
+
+.menu_link {
+    font-weight: 300;
+	font-size: 15px;
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu_link:hover {
+    color: orange;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 100px 0 100px;
+}
+
+.greeting {
+    min-height: 500px;
+    background-image: url(img/main_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0 auto;
+    padding-top: 120px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.greeting__subtitle {
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    color: orange;
+}
+
+.info {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .info__descr {
+    padding-left: 80px;
+    font-size: 300;
+}
+
+.title {
+    padding: 10px;
+    min-height: 35px;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: orange;
+}
+
+.info .info__subtitle {
+    padding: 30px 0 20px 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.info .info__item {
+    display: block;
+    width: 100px;
+    height: 0;
+    border: 1px solid #FFA500;
+    
+}
+
+.info .info__text {
+    padding-top: 40px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.work {
+    padding: 120px 0 120px 0;
+}
+
+h2 .title {
+    text-align: center;
+}
+
+.work__skills {
+    padding-top: 100px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+footer {
+    display: flex;
+    min-height: 100px;
+    background-color: #FFA500;
+}
+
+.contacts__text {
+    padding: 40px 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+} 
+
+.contacts__item {
+    padding: 38px 0;
+
+}
+
+.github {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.rsschool {
+    width: 55px;
+    height: 30px;
+}
+
