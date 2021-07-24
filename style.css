@@ -124,7 +124,7 @@ h1 {
 footer {
     display: flex;
     min-height: 100px;
-    background-color: #000;
+    background-color: #FFA500;
 }
 
 .contacts__text {
@@ -144,8 +144,8 @@ footer {
     margin-right: 20px;
 }
 
-.discord {
-    width: 30px;
+.rsschool {
+    width: 55px;
     height: 30px;
 }
 
